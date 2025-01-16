@@ -1,0 +1,15 @@
+
+#sed -Ei "s|DIST?|$(lsb_release -cs)|" /etc/apt/sources.list
+
+deb http://deb.debian.org/debian DIST main contrib non-free
+deb-src http://deb.debian.org/debian DIST main contrib non-free
+
+deb http://deb.debian.org/debian DIST-updates main contrib non-free
+deb-src http://deb.debian.org/debian DIST-updates main contrib non-free
+
+deb http://deb.debian.org/debian DIST-backports main contrib non-free
+deb-src http://deb.debian.org/debian DIST-backports main contrib non-free
+
+deb http://security.debian.org/debian-security/ DIST-security main contrib non-free
+deb-src http://security.debian.org/debian-security/ DIST-security main contrib non-free
+#
