@@ -1,7 +1,7 @@
 для ubuntu
 ```bash
 #проверяем что установлен lsb-release:
-apt isntall lsb-release
+apt install lsb-release
 
 #скачиваем sources.list в /etc/apt/sources.list (с заменой):
 wget https://raw.githubusercontent.com/Lojaleto/sources/refs/heads/main/ubuntu/sources.list -O /etc/sources.list
@@ -16,7 +16,7 @@ apt update && apt upgrade -y
 для debian до 11 включительно:
 ```bash
 #проверяем что установлен lsb-release:
-apt isntall lsb-release
+apt install lsb-release
 
 #скачиваем sources.list в /etc/apt/sources.list (с заменой):
 wget https://raw.githubusercontent.com/Lojaleto/sources/refs/heads/main/debian/sources.list -O /etc/sources.list
